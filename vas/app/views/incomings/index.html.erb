@@ -1,0 +1,14 @@
+<div id="display" style='display: none;'>
+Hello World Pop-up works
+</div>
+<%= render 'call' %>
+
+<ul id="call" style='display: none;'>
+  <%= render @incoming %>
+</ul>
+
+<%= form_for Incoming.new, :remote => true do |f| %>
+  <%= f.text_field :exten_number %>
+  <%= f.text_field :cid_number %>
+  <%= f.submit "Send" %>
+<% end %>

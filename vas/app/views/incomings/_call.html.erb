@@ -1,0 +1,5 @@
+<%= form_tag(call_incoming_path(:dial_number, :exten_number), :method => 'post') do %>
+<%= text_field_tag 'dial_number' %>
+<%= text_field_tag 'cid_number' %>
+<%= submit_tag "Call" %>
+<% end %>

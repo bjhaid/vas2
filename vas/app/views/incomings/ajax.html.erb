@@ -1,0 +1,13 @@
+<%= form_for(@ajax) do |f| %>
+ <div class="field">
+    <%= f.label :cid_number %><br />
+    <%= f.text_field :cid_number %>
+  </div>
+  <div class="field">
+    <%= f.label :exten_number %><br />
+    <%= f.text_field :exten_number %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

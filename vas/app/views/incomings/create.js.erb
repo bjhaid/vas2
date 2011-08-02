@@ -1,0 +1,16 @@
+    <% if (Incoming.last.cid_number  == '7003') %>
+      $('#display').dialog({
+          title: 'Incoming call from <%=Incoming.last.cid_number%>',
+          modal: true,
+          buttons: [{
+            text: 'Hangup',
+            click: function() {
+               $(this).dialog('close');
+            }
+          }]
+          
+      });
+      $("#new_switchvox")[0].reset();
+    <%end %>
+      
+      
