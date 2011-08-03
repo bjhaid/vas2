@@ -15248,3 +15248,421 @@ Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.
   [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
 Rendered incomings/new.html.erb within layouts/application (72.9ms)
 Completed 200 OK in 8217ms (Views: 91.6ms | ActiveRecord: 58.8ms)
+
+
+Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:32:41 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"08033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (2.7ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (93.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('08033138259', '5001', '2011-08-02 13:32:43', '2011-08-02 13:32:43', NULL)
+  [1m[36mSQL (96.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 2593ms
+
+NoMethodError (undefined method `id' for #<ActiveSupport::HashWithIndifferentAccess:0x99fb9c0>):
+  app/controllers/incomings_controller.rb:23:in `block in new'
+  app/controllers/incomings_controller.rb:22:in `new'
+
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.5ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (69.5ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (132.1ms)
+
+
+Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:33:48 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"08033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (2.8ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('08033138259', '5001', '2011-08-02 13:33:48', '2011-08-02 13:33:48', NULL)
+  [1m[36mSQL (65.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 2815ms
+
+NoMethodError (undefined method `id' for #<ActiveSupport::HashWithIndifferentAccess:0x9e40724>):
+  app/controllers/incomings_controller.rb:23:in `block in new'
+  app/controllers/incomings_controller.rb:22:in `new'
+
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (14.7ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (40.1ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (75.5ms)
+
+
+Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:34:38 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"08033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (2.7ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (11.2ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('08033138259', '5001', '2011-08-02 13:34:38', '2011-08-02 13:34:38', NULL)
+  [1m[36mSQL (67.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (102.5ms)
+Completed 200 OK in 8683ms (Views: 184.8ms | ActiveRecord: 346.1ms)
+
+
+Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:36:22 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"08033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (2.7ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('08033138259', '5001', '2011-08-02 13:36:23', '2011-08-02 13:36:23', NULL)
+  [1m[36mSQL (56.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (4.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (116.1ms)
+Completed 200 OK in 8775ms (Views: 134.6ms | ActiveRecord: 64.4ms)
+
+
+Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:37:25 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"08033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (3.1ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('08033138259', '5001', '2011-08-02 13:37:25', '2011-08-02 13:37:25', NULL)
+  [1m[36mSQL (50.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (78.5ms)
+Completed 200 OK in 8661ms (Views: 96.9ms | ActiveRecord: 55.8ms)
+
+
+Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:40:02 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"08033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (2.8ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('08033138259', '5001', '2011-08-02 13:40:02', '2011-08-02 13:40:02', NULL)
+  [1m[36mSQL (57.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (72.0ms)
+Completed 200 OK in 7043ms (Views: 88.2ms | ActiveRecord: 62.5ms)
+
+
+Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:41:06 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"08033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (2.3ms)[0m  BEGIN
+  [1m[36mSQL (2.8ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('08033138259', '5001', '2011-08-02 13:41:07', '2011-08-02 13:41:07', NULL)
+  [1m[36mSQL (67.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (83.7ms)
+Completed 200 OK in 8701ms (Views: 217.5ms | ActiveRecord: 73.6ms)
+
+
+Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:42:18 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"08033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (2.6ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('08033138259', '5001', '2011-08-02 13:42:19', '2011-08-02 13:42:19', NULL)
+  [1m[36mSQL (61.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (96.8ms)
+Completed 200 OK in 9506ms (Views: 117.9ms | ActiveRecord: 65.9ms)
+
+
+Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:43:06 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"08033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (2.6ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (1.2ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('08033138259', '5001', '2011-08-02 13:43:06', '2011-08-02 13:43:06', NULL)
+  [1m[36mSQL (58.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (81.5ms)
+Completed 200 OK in 8580ms (Views: 100.6ms | ActiveRecord: 63.2ms)
+
+
+Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:43:58 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"08033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (3.3ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('08033138259', '5001', '2011-08-02 13:43:58', '2011-08-02 13:43:58', NULL)
+  [1m[36mSQL (76.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (94.0ms)
+Completed 200 OK in 8402ms (Views: 111.9ms | ActiveRecord: 81.4ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:53:26 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"8033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (2.8ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('8033138259', '5001', '2011-08-02 13:53:26', '2011-08-02 13:53:26', NULL)
+  [1m[36mSQL (55.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 7015ms
+
+NoMethodError (undefined method `cid_number' for nil:NilClass):
+  app/controllers/incomings_controller.rb:18:in `new'
+
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.4ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (28.6ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (53.2ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:54:26 +0100
+
+ActionController::RoutingError (undefined method `cid_number' for nil:NilClass):
+  app/controllers/incomings_controller.rb:8:in `<class:IncomingsController>'
+  app/controllers/incomings_controller.rb:2:in `<top (required)>'
+
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.5ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:55:22 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"8033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (2.7ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('8033138259', '5001', '2011-08-02 13:55:22', '2011-08-02 13:55:22', NULL)
+  [1m[36mSQL (53.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 8019ms
+
+NoMethodError (undefined method `cid_number' for nil:NilClass):
+  app/controllers/incomings_controller.rb:18:in `new'
+
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (30.2ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (51.4ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:57:11 +0100
+
+SyntaxError (/home/abejide/vas/vas/app/controllers/incomings_controller.rb:11: syntax error, unexpected ']', expecting ')'
+...phone_fax(@incoming.cid_number]) || Sugar.find_by_phone_mobi...
+...                               ^):
+  
+
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.6ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.7ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.9ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:57:25 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"8033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (2.7ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.9ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('8033138259', '5001', '2011-08-02 13:57:25', '2011-08-02 13:57:25', NULL)
+  [1m[36mSQL (62.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (81.1ms)
+Completed 200 OK in 8669ms (Views: 98.1ms | ActiveRecord: 186.1ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 14:59:42 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"8033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (3.3ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.9ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('8033138259', '5001', '2011-08-02 13:59:42', '2011-08-02 13:59:42', NULL)
+  [1m[36mSQL (57.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (74.6ms)
+Completed 200 OK in 6876ms (Views: 96.5ms | ActiveRecord: 63.1ms)
+
+
+Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 15:00:12 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"08033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (2.8ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.9ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('08033138259', '5001', '2011-08-02 14:00:13', '2011-08-02 14:00:13', NULL)
+  [1m[36mSQL (66.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (101.7ms)
+Completed 200 OK in 8465ms (Views: 120.4ms | ActiveRecord: 71.4ms)
+
+
+Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 15:01:55 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"08033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (2.8ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('08033138259', '5001', '2011-08-02 14:01:56', '2011-08-02 14:01:56', NULL)
+  [1m[36mSQL (54.4ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 176ms
+
+NoMethodError (undefined method `cid_number' for nil:NilClass):
+  app/controllers/incomings_controller.rb:10:in `new'
+
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.5ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (30.2ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.4ms)
+
+
+Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 15:04:18 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"08033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (1.0ms)[0m  BEGIN
+  [1m[36mSQL (3.2ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('08033138259', '5001', '2011-08-02 14:04:18', '2011-08-02 14:04:18', NULL)
+  [1m[36mSQL (68.7ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 159ms
+
+NoMethodError (undefined method `cid_number' for nil:NilClass):
+  app/controllers/incomings_controller.rb:10:in `new'
+
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.7ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (25.3ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (52.5ms)
+
+
+Started GET "/incomings/new?cid_number=08033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 15:04:47 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"08033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.7ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('08033138259', '5001', '2011-08-02 14:04:48', '2011-08-02 14:04:48', NULL)
+  [1m[36mSQL (61.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (67.2ms)
+Completed 200 OK in 382ms (Views: 83.5ms | ActiveRecord: 197.0ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 15:05:01 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"8033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (3.1ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.9ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('8033138259', '5001', '2011-08-02 14:05:01', '2011-08-02 14:05:01', NULL)
+  [1m[36mSQL (53.4ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 273ms
+
+NoMethodError (undefined method `cid_number' for nil:NilClass):
+  app/controllers/incomings_controller.rb:11:in `new'
+
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.4ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (29.1ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (66.6ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 15:05:39 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"8033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (3.2ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.7ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('8033138259', '5001', '2011-08-02 14:05:39', '2011-08-02 14:05:39', NULL)
+  [1m[36mSQL (51.0ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 154ms
+
+NoMethodError (undefined method `cid_number' for nil:NilClass):
+  app/controllers/incomings_controller.rb:11:in `new'
+
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.4ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (24.5ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (51.5ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 15:06:41 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"8033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (4.6ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.9ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('8033138259', '5001', '2011-08-02 14:06:41', '2011-08-02 14:06:41', NULL)
+  [1m[36mSQL (70.0ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 213ms
+
+NoMethodError (undefined method `cid_number' for nil:NilClass):
+  app/controllers/incomings_controller.rb:11:in `new'
+
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (11.5ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (55.0ms)
+Rendered /home/abejide/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (100.5ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 15:07:54 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"8033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (3.1ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('8033138259', '5001', '2011-08-02 14:07:54', '2011-08-02 14:07:54', NULL)
+  [1m[36mSQL (55.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (74.8ms)
+Completed 200 OK in 6737ms (Views: 107.1ms | ActiveRecord: 249.7ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 15:08:31 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"8033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (2.7ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.9ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('8033138259', '5001', '2011-08-02 14:08:31', '2011-08-02 14:08:31', NULL)
+  [1m[36mSQL (67.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (2.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (204.1ms)
+Completed 200 OK in 7998ms (Views: 222.4ms | ActiveRecord: 74.2ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 15:10:08 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"8033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (2.9ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.9ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('8033138259', '5001', '2011-08-02 14:10:09', '2011-08-02 14:10:09', NULL)
+  [1m[36mSQL (115.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (199.1ms)
+Completed 200 OK in 9303ms (Views: 217.4ms | ActiveRecord: 120.3ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 15:10:43 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"8033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (2.9ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.9ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('8033138259', '5001', '2011-08-02 14:10:43', '2011-08-02 14:10:43', NULL)
+  [1m[36mSQL (102.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (81.4ms)
+Completed 200 OK in 8293ms (Views: 100.5ms | ActiveRecord: 107.1ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 15:12:26 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"8033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (2.8ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.7ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('8033138259', '5001', '2011-08-02 14:12:26', '2011-08-02 14:12:26', NULL)
+  [1m[36mSQL (79.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (86.2ms)
+Completed 200 OK in 9096ms (Views: 104.6ms | ActiveRecord: 84.2ms)
+
+
+Started GET "/incomings/new?cid_number=8033138259&exten_number=5001" for 127.0.0.1 at 2011-08-02 15:14:22 +0100
+  Processing by IncomingsController#new as HTML
+  Parameters: {"cid_number"=>"8033138259", "exten_number"=>"5001"}
+  [1m[35mSQL (0.4ms)[0m  BEGIN
+  [1m[36mSQL (3.3ms)[0m  [1mdescribe `incomings`[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO `incomings` (`cid_number`, `exten_number`, `created_at`, `updated_at`, `exten_id`) VALUES ('8033138259', '5001', '2011-08-02 14:14:23', '2011-08-02 14:14:23', NULL)
+  [1m[36mSQL (60.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mSQL (7.0ms)[0m  [1mCOMMIT[0m
+Rendered incomings/new.html.erb within layouts/application (88.8ms)
+Completed 200 OK in 8448ms (Views: 110.8ms | ActiveRecord: 72.3ms)

@@ -9,6 +9,4 @@ class ExterncallController < ApplicationController
      Switchvox_call.calling(@externcall.a, @externcall.b)
     end
   end
-
-
 end
