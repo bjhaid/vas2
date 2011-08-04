@@ -21,6 +21,14 @@ class IncomingsController < ApplicationController
    rescue
      @contact = Sugar.find_by_phone_fax(params[:cid_number]) || Sugar.find_by_phone_mobile(params[:cid_number]) || Sugar.find_by_phone_other(params[:cid_number]) || Sugar.find_by_phone_work(params[:cid_number])
    end
+  elsif (params[:cid_number])[0] == "1"
+   params[:cid_number] = "0" + params[:cid_number]
+   begin
+     @contact = Sugar.find_by_phone_fax(params[:cid_number]) || Sugar.find_by_phone_mobile(params[:cid_number]) || Sugar.find_by_phone_other(params[:cid_number]) || Sugar.find_by_phone_work(params[:cid_number])
+   rescue
+     @contact = Sugar.find_by_phone_fax(params[:cid_number]) || Sugar.find_by_phone_mobile(params[:cid_number]) || Sugar.find_by_phone_other(params[:cid_number]) || Sugar.find_by_phone_work(params[:cid_number])
+   end
+
   end
 
      
