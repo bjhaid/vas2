@@ -1,0 +1,8 @@
+default:
+   switchvox_ip: PBX.IP.Com
+
+development:
+   switchvox_ip: PBX.IP.Com
+
+production:
+   switchvox_ip: PBX.IP.Com
